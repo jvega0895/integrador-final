@@ -1,0 +1,223 @@
+@media (max-width: 990px) {
+    .header{
+        width: 100%;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+    .header__logo__titulo img{
+        display: none;
+    }
+    .header__logo__titulo h1{
+        padding-top: 10px;
+    }
+    .nav__menu__button{
+        margin: 30px auto;
+    }
+    .slider__section{
+        width: 600px;
+        height: 350px;
+    }
+    .slider__section img{
+        width: 600px;
+        height: 350px;
+    }
+    .section__info{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .info__contenido{
+        gap: 20px;
+    }
+    .info__contenido__img{
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+    .Destinos{
+        padding-top: 7px;
+    }
+    .destinos__container{
+        max-width: 800px;
+    }
+    .destinos__lugares{
+        gap: 50px;
+    }
+    .paris__layout{
+        padding-right: 200px;
+        padding-left: 200px;
+    }
+    .paris__info{
+        max-width: 750px;
+        padding-left: 200px;
+        gap: 20px;
+    }
+    .eeuu__layout{
+        padding-right: 200px;
+        padding-left: 200px;
+        
+    }
+    .eeuu__info{
+        max-width: 750px;
+        padding-left: 200px;
+        gap: 20px;
+    }
+    .bsas__layout{
+        padding-right: 200px;
+        padding-left: 200px; 
+    }
+    .bsas__info{
+        max-width: 750px;
+        padding-left: 200px;
+        gap: 20px; 
+    }
+    .caribe__layout{
+        padding-right: 200px;
+        padding-left: 200px; 
+    }
+    .caribe__info{
+        max-width: 750px;
+        padding-left: 200px;
+        gap: 20px;
+    }
+    
+    }
+    @media (max-width:750px) {
+        .slider__section{
+            width: 450px;
+            height: 275px;
+        }
+        .slider__section img{
+            width: 450px;
+            height: 275px;
+        }
+        .eeuu__layout{
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+        .eeuu__info{
+            text-align: center;
+        }
+        .bsas__layout{
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+        .bsas__info{
+            text-align: center;
+        }
+        .paris__layout{
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+        .paris__info{
+            text-align: center;
+        }
+        .caribe__layout{
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+        .caribe__info{
+            text-align: center;
+        }
+        
+    }
+    @media (max-width:550px) {
+        .slider__section{
+            width: 300px;
+            height: 175px;
+        }
+        .slider__section img{
+            width: 300px;
+            height: 175px;
+        }
+        .info__contenido__img{
+            max-width: 350px;
+        }
+        .destinos__container{
+            max-width: 350px;
+        }
+        .beneficios h3{
+            text-align: center;
+        }
+        .beneficio__info{
+            max-width: 300px;
+        }
+        .eeuu__layout{
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+        .bsas__layout{
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+        .caribe__layout{
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+        .paris__layout{
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+        .eeuu__info{
+            padding-left: 60px;
+            padding-right: 60px;
+        }
+        
+        .bsas__info{
+            padding-left: 60px;
+            padding-right: 60px;
+        }
+        .caribe__info{
+            padding-left: 60px;
+            padding-right: 60px;
+        }
+        .paris__info{
+            padding-left: 60px;
+            padding-right: 60px;
+        }
+        
+    }
+    @media (max-width:350px) {
+       .header{
+        width: 100%;
+       }
+       .header__logo__titulo h1{
+        display: none;
+       }
+       
+        .slider__section{
+            width: 225px;
+            height: 130px;
+        }
+        .slider__section img{
+            width: 225px;
+            height: 130px;
+        }
+        .info__contenido__img{
+            max-width: 200px;
+        }
+        .destinos__container{
+            max-width: 200px;
+        }
+        .beneficio__info{
+            max-width: 225px;
+        }
+        .layout__item1:nth-child(2),
+        .layout__item1:nth-child(3),
+        .layout__item1:nth-child(4),
+        .layout__item1:nth-child(5){
+            display: none;
+        }
+        .layout__item:nth-child(2),
+        .layout__item:nth-child(3),
+        .layout__item:nth-child(4),
+        .layout__item:nth-child(5){
+            display: none;
+        }
+        .login form{
+            width: 200px;
+        }
+
+
+        
+    }
