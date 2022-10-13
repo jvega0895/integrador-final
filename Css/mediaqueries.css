@@ -142,6 +142,9 @@
         .beneficio__info{
             max-width: 300px;
         }
+        .lugares__info{
+            height: 300px;
+        }
         .eeuu__layout{
             padding-left: 25px;
             padding-right: 25px;
