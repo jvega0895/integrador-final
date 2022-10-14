@@ -12,7 +12,11 @@
         padding-top: 10px;
     }
     .nav__menu__button{
+        display: flex;
         margin: 30px auto;
+    }
+    .nav2__list{
+        display: none;
     }
     .slider__section{
         width: 600px;

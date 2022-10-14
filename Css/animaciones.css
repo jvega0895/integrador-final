@@ -99,3 +99,6 @@
  animation: rotatey 2s ease-in-out infinite ;
  cursor: pointer;
 }
+.footer__direccion img:hover{
+  animation: rotatey 2s ease-in-out infinite ;
+}

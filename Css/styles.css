@@ -64,6 +64,7 @@ body {
   background: transparent;
   cursor: pointer;
   gap: 3px;
+  display: none;
 
 }
 
@@ -107,6 +108,24 @@ body {
   background: linear-gradient(98.81deg, #FFA100 5%, #fafafa);
   position: absolute;
 
+}
+
+.nav2__list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+.nav2__list li{
+  list-style: none;
+}
+.nav2__list a{
+  text-decoration: none;
+  color: #565a5c;
+
+}
+.nav2__list a:hover{
+  color: #FFA100;
 }
 
 .slider__section {
@@ -350,6 +369,7 @@ body {
 }
 .footer__nav{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   
@@ -370,7 +390,16 @@ body {
 .footer h6{
   text-align: center;
 }
-
+.footer__direccion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.footer__direccion img{
+  width: 50px;
+  height: 50px;
+}
 
 .login {
   display: flex;
